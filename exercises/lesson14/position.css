@@ -1,0 +1,74 @@
+body {
+  padding-bottom: 1000px;
+  font-family: Arial;
+}
+
+.channels {
+  position: fixed;
+  background-color: rgb(50, 50, 50);
+  top: 0;
+  bottom: 0;
+  left: 0;
+  padding-right: 10px;
+}
+
+.image1,
+.image2,
+.image3 {
+  border-radius: 23px;
+  width: 45px;
+  height: 45px;
+  margin-left: 10px;
+}
+
+.image1 {
+  margin-top: 13px;
+}
+
+.image2,
+.image3 {
+  margin-top: 4px;
+}
+
+.rooms {
+  position: fixed;
+  background-color: rgb(60,60,60);
+  color: rgb(180,180,180);
+  top: 0;
+  bottom: 0;
+  left: 65px;
+  padding-left: 15px;
+}
+
+.info {
+  color: white;
+  padding-top: 15px;
+  padding-bottom: 0;
+  padding-right: 15px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 150px;
+  align-items: center;
+}
+
+.name {
+  font-weight: bold;
+  font-size: 12px;
+}
+
+.add {
+  font-size: 20px;
+  color: rgb(180,180,180)
+}
+
+.room1,
+.room2,
+.room3 {
+  padding-top: 15px;
+  font-size: 14px;
+}
+
+.room1 {
+  padding-top: 10px;
+}
